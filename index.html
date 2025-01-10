@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Rich Text JSON to HTML Code Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopify Rich Text JSON to HTML Code Converter</h1>
+    <p>Enter Shopify rich text JSON below and convert it to clean HTML code to upload to other systems. e.g. Salesforce:</p>
+    <textarea id="jsonInput" placeholder='Paste your JSON here...'></textarea>
+    <button id="convertButton">Convert to HTML</button>
+
+    <h2>Generated HTML:</h2>
+    <pre id="output"></pre>
+    <button id="copyButton" style="display: none;">Copy to Clipboard</button>
+  </div>
+
+  <div class="footer">
+    <a href="https://joehayes.co.uk">joehayes.co.uk</a>
+  </div>
+  <script src="dist/richtext-to-html.js"></script>
+</body>
+</html>
