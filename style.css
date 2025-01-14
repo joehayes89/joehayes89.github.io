@@ -11,3 +11,10 @@ body {
     font-style: normal;
     font-size: 24px;
   }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #262626;
+        color: #ffffff;
+    }
+}
